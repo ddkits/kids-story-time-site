@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — Kids Story Time · Kids Story Time — Docs</title><style>
+:root{--bg:#ffffff;--fg:#1d2430;--muted:#5c6675;--link:#0b63b8;--code:#f3f5f8;--border:#e3e7ee;--accent:#d9942a}
+@media(prefers-color-scheme:dark){:root{--bg:#0b1220;--fg:#e6ebf2;--muted:#9aa6b5;--link:#7cc0ff;--code:#131c2c;--border:#25304a;--accent:#f5b83d}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+a{color:var(--link)}header{border-bottom:1px solid var(--border);padding:.8rem 1.2rem;display:flex;gap:1rem;align-items:baseline;flex-wrap:wrap}
+header b{color:var(--accent)}header a{text-decoration:none;color:var(--muted)}
+main{max-width:62rem;margin:0 auto;padding:1.5rem 1.2rem 4rem}
+pre{background:var(--code);border:1px solid var(--border);border-radius:6px;padding:.8rem 1rem;overflow-x:auto}
+code{background:var(--code);padding:.1em .3em;border-radius:4px;font-size:.92em}pre code{background:none;padding:0}
+table{border-collapse:collapse;display:block;overflow-x:auto;max-width:100%}th,td{border:1px solid var(--border);padding:.35rem .6rem;vertical-align:top}th{background:var(--code)}
+blockquote{border-left:3px solid var(--accent);margin:0;padding:.2rem 1rem;color:var(--muted)}
+h1,h2,h3{line-height:1.25}h1{margin-top:0}hr{border:0;border-top:1px solid var(--border)}
+.toc ul{list-style:none;padding-left:0}.toc li{margin:.15rem 0}.toc h2{margin-bottom:.3rem;font-size:1.05rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.mermaid{background:transparent}img{max-width:100%}
+</style></head>
+<body><header><b>Kids Story Time</b><a href="../index.html">Docs index</a><a href="../00-ARCHITECTURE-DECISIONS.html">Architecture decisions</a></header>
+<main><h1>Privacy Policy — Kids Story Time</h1>
+<p><strong>Effective date: 29 August 2026</strong>
+<strong>Last updated: 29 August 2026</strong></p>
+<p>This is the privacy policy for <strong>Kids Story Time</strong>, a 3D storybook app for children aged 3 and up,
+made by <strong>Reallexi LLC</strong>.</p>
+<p>We wrote it to be read by a parent, not by a lawyer. It is short because the app does almost
+nothing with data — and everything below is a description of how the app actually works, not a
+list of things we promise to do one day.</p>
+<hr>
+<h2>1. The short version</h2>
+<ul>
+<li><strong>No accounts.</strong> There is no sign-in. We never ask for a name, an email address, a birthday, a
+photo or a profile.</li>
+<li><strong>No ads.</strong> No advertising of any kind, and no advertising software inside the app.</li>
+<li><strong>No tracking, no analytics.</strong> We do not measure what your child reads, we do not build a
+profile, and the app never touches your device&#39;s advertising identifier (IDFA on iPhone and
+iPad, Advertising ID on Android).</li>
+<li><strong>It works offline.</strong> All twenty stories are inside the app when you download it. The app does
+not need the internet to read a story.</li>
+<li><strong>One narrow exception.</strong> If a grown-up buys a membership, the app sends the store&#39;s purchase
+receipt and a random install number to our server so the membership can be unlocked. That is the
+only time the app sends anything anywhere. Section 4 explains it in full.</li>
+<li><strong>Everything else stays on the device.</strong> Reading progress and settings are saved on the device
+only. They never reach us.</li>
+</ul>
+<hr>
+<h2>2. Who we are, and how to reach us</h2>
+<p>Kids Story Time is made and operated by:</p>
+<p><strong>Reallexi LLC</strong>
+Email: <strong><a href="mailto:admin@reallexi.io">admin@reallexi.io</a></strong></p>
+<p>Website: kidsstorytime.reallexi.io
+Our server for purchases: api-kidsstorytime.reallexi.io</p>
+<p>If you have a question about anything on this page, email <strong><a href="mailto:admin@reallexi.io">admin@reallexi.io</a></strong> and a person will
+answer.</p>
+<hr>
+<h2>3. What we collect from your child: nothing</h2>
+<p>We do not collect personal information from children, and we do not collect it from grown-ups
+either, apart from the purchase exception in section 4.</p>
+<p>Specifically, the app <strong>never</strong> collects, asks for, or has access to:</p>
+<ul>
+<li>names, nicknames, email addresses, phone numbers or postal addresses</li>
+<li>birthdays, ages or age ranges</li>
+<li>photos, videos or anything from the camera — the app does not use the camera</li>
+<li>voice recordings or anything from the microphone — the app does not use the microphone</li>
+<li>contacts, calendars, files or your photo library</li>
+<li>location of any kind, precise or approximate</li>
+<li>your device&#39;s advertising identifier (IDFA / Advertising ID)</li>
+<li>persistent identifiers used to recognise you across other apps or websites</li>
+</ul>
+<p>There is no chat, no comments, no sharing, no user-uploaded content, no messaging and no way for
+your child to reach another person through this app.</p>
+<p>There are no third-party software kits inside the app for advertising, analytics, attribution,
+crash reporting or social networks. There is nothing in the app that reports back about your
+child.</p>
+<hr>
+<h2>4. The one exception: buying a membership</h2>
+<p>Two stories are free forever. The other eighteen are opened by the <strong>Story Time Membership</strong>
+($3.99 per month or $42.99 per year). Buying one is the only thing that sends data off the device.</p>
+<p>Here is exactly what happens, step by step.</p>
+<p><strong>a. The install number.</strong> The first time the app runs, it makes up a random number for itself — a
+UUID, something like <code>7f3a9c1e-…</code>. It is generated on the device, by the device. It is not derived
+from anything about you or your phone, it is not your device&#39;s identifier, and it is not linked to
+any person. We call it the <strong>install id</strong>. It sits on the device with the other saved settings.</p>
+<p><strong>b. The purchase itself.</strong> The purchase is made by Apple or Google, in their own payment sheet,
+using the payment method already on your store account. <strong>We never see, receive or store card
+numbers, bank details, billing addresses or your Apple ID / Google account.</strong> We are not told who
+bought the membership.</p>
+<p><strong>c. Checking the purchase.</strong> After the store confirms the purchase, the app sends two things to
+our server at <code>api-kidsstorytime.reallexi.io</code>:</p>
+<ol>
+<li>the store&#39;s <strong>purchase receipt</strong> — a signed Apple StoreKit token, or a Google Play purchase
+token; and</li>
+<li>the <strong>install id</strong> from step (a).</li>
+</ol>
+<p><strong>d. What our server does.</strong> Our server asks Apple or Google whether that receipt is genuine and
+still valid. If it is, the server saves one purchase record containing:</p>
+<ul>
+<li>which store it came from (Apple or Google),</li>
+<li>the store&#39;s transaction identifiers for that purchase,</li>
+<li>which product was bought (monthly or yearly membership),</li>
+<li>when the paid period ends, and</li>
+<li>the install ids that have used that purchase (so the same membership works on the family&#39;s other
+devices), with the dates the record was created and last updated.</li>
+</ul>
+<p>The server also keeps the receipt itself, so it can re-check the purchase with Apple or Google
+later — for example when the subscription renews.</p>
+<p>The server then sends back a small signed <strong>membership pass</strong>, which the app stores on the device.
+The pass is what unlocks the stories, and the app can check it by itself with no internet at all —
+which is why a paid membership keeps working on a plane or in a car with no signal.</p>
+<p><strong>e. What is <em>not</em> in any of that.</strong> No name. No email. No age. No address. No reading history. The
+purchase record cannot tell us who you are; it identifies a store transaction and a random install
+number, and nothing else. If you and your neighbour both bought a membership, we could not tell
+which record was which.</p>
+<p><strong>When the app talks to our server at all:</strong> only for this. If nobody has ever bought a
+membership, the app never sends anything to us. If someone has, the app re-checks the stored
+receipt when it starts and has a connection, so that renewals and cancellations are picked up. No
+other message is ever sent.</p>
+<p><strong>f. A note about the web version.</strong> Everything above describes the installed app on iPhone, iPad
+and Android, and it is equally true of the version that runs in a browser at
+kidsstorytime.reallexi.io. The one difference is unavoidable and applies to every website in the
+world: to send you the page, our server receives the ordinary request your browser makes, which
+includes your IP address and the kind of browser you are using. We do not use that to identify
+anyone, we do not build profiles from it, we do not share it, and there are no tracking or
+advertising cookies on the site. Once the page has loaded, reading works offline exactly as it does
+in the app.</p>
+<p>Our own server keeps <strong>no access logs at all</strong> — it records no addresses, no pages and no times.
+The network provider in front of it (Cloudflare) keeps short-lived operational records of its own
+to route and protect the connection, which we do not receive and cannot search.</p>
+<hr>
+<h2>5. What is saved on the device, and stays there</h2>
+<p>The app remembers a few things so it feels friendly the next time it is opened. All of this lives
+in the app&#39;s own storage on the device (browser local storage on the web; the app&#39;s storage on
+iPhone, iPad and Android). <strong>None of it is ever sent to us or to anyone else.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Saved on the device</th>
+<th>What it is for</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Reading progress</td>
+<td>Reopening a story on the page your child stopped at</td>
+</tr>
+<tr>
+<td>Reading mode — living book or paper book</td>
+<td>Remembering the mode your child prefers</td>
+</tr>
+<tr>
+<td>Read-aloud narration on/off</td>
+<td>Remembering the narration choice</td>
+</tr>
+<tr>
+<td>Music and sounds on/off</td>
+<td>Remembering the sound choice</td>
+</tr>
+<tr>
+<td>Accessibility settings — text size, dark or light, contrast, reduced motion, captions, audio descriptions</td>
+<td>Keeping the app set up the way it suits your child</td>
+</tr>
+<tr>
+<td>Graphics quality</td>
+<td>Keeping the picture smooth on your device</td>
+</tr>
+<tr>
+<td>The install id, the membership pass and the store receipt (section 4)</td>
+<td>Unlocking the membership offline</td>
+</tr>
+</tbody></table>
+<p>There are no tracking cookies and no advertising cookies. Nothing here follows anyone around the
+internet.</p>
+<p><strong>Deleting all of it is simple:</strong> delete the app (or clear the site data in your browser).
+Everything in the table above goes with it, immediately and completely, because it was only ever
+on the device. If you had a membership, tap <strong>Restore purchases</strong> after reinstalling and it comes
+back — you are not charged again.</p>
+<hr>
+<h2>6. Reading aloud, and the sounds</h2>
+<p>The read-aloud narration uses the <strong>voice already built into your device</strong> (the same one used by
+your phone&#39;s accessibility features). The story text is spoken by the device. Nothing is recorded,
+nothing is sent to a voice service, and the microphone is never used or requested.</p>
+<p>The music and sound effects are generated by the app itself while it plays. No sound files are
+downloaded and nothing is streamed.</p>
+<hr>
+<h2>7. Children&#39;s privacy — COPPA and UK/EU GDPR-K</h2>
+<p>Kids Story Time is made for children aged 3 and up, so children&#39;s privacy rules apply to it in
+full. We follow them the simplest way possible: <strong>by not collecting personal information at all.</strong></p>
+<p><strong>United States — COPPA (the Children&#39;s Online Privacy Protection Act).</strong> We do not collect,
+use or disclose personal information from children under 13. Because we collect none, there is
+nothing for a parent to consent to, nothing for us to disclose, and nothing for us to hand over or
+delete on request. We do not condition your child&#39;s use of any part of the app on giving us
+personal information, because we never ask for any. We do not knowingly collect personal
+information from anyone of any age beyond the purchase record described in section 4, which is not
+personal information about a child and is created only by a grown-up who has passed the parental
+gate.</p>
+<p><strong>United Kingdom and European Union — the GDPR, including children&#39;s data (often called GDPR-K)
+and the UK Age Appropriate Design Code.</strong> We do not process personal data about children. There is
+no profiling of any kind. There is no behavioural or personalised advertising — there is no
+advertising at all. There are no &quot;nudge&quot; techniques pushing a child towards weaker privacy
+settings or more time in the app; the privacy-protective setting is the only setting. The app&#39;s
+defaults are the safest ones, and nothing about a child&#39;s use of the app is shared with anyone.</p>
+<p><strong>No behavioural advertising, ever.</strong> We do not show ads, we do not sell or share data for
+advertising, and we do not use anyone&#39;s information — child or adult — to target advertising,
+build audiences or profile anybody. There is nothing in this app that could do so.</p>
+<p><strong>Purchases are behind a parental gate.</strong> Before any purchase button appears, the app asks a
+multiplication question that a young child cannot answer. The payment itself then happens in
+Apple&#39;s or Google&#39;s own sheet, which asks for your store password, Face ID or fingerprint. A child
+cannot buy anything on their own.</p>
+<hr>
+<h2>8. Who else sees anything</h2>
+<p>We do not sell data. We do not share data for advertising. We do not have advertising partners,
+analytics partners, data brokers or affiliates receiving anything at all.</p>
+<p>The only companies involved are:</p>
+<p><strong>Apple and Google — as the shops that take the payment.</strong> When you buy a membership, Apple (App
+Store / StoreKit) or Google (Google Play Billing) handles the payment and holds the payment
+details. They are the merchant, not us. We receive their receipt and ask them to confirm it is
+genuine. Their handling of your purchase is covered by their own privacy policies:</p>
+<ul>
+<li>Apple: <a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a></li>
+<li>Google: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+</ul>
+<p><strong>Our own hosting.</strong> Our purchase server runs on infrastructure we operate, reached through a
+content-delivery network that passes requests through to it. Those providers process the
+connection itself; they are not given, and do not receive, anything about your child.</p>
+<p>In practice that means one thing: our purchase server runs on a virtual private server we rent and
+administer ourselves, and it is reached through <strong>Cloudflare</strong>, which carries the connection and
+protects it. Cloudflare handles the connection; it is not given, and does not receive, anything
+about your child.</p>
+<p>We would only disclose a purchase record if the law required it — for example a valid court order
+— or to defend against fraud against us. Since the records identify a store transaction and a
+random number, there is very little in them to disclose.</p>
+<hr>
+<h2>9. How long we keep things</h2>
+<p>We only keep one kind of record, so this section is short.</p>
+<table>
+<thead>
+<tr>
+<th>What</th>
+<th>How long</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Purchase record and the store receipt (section 4)</td>
+<td>For as long as the membership can still renew or be restored, and then up to <strong>7 years</strong></td>
+<td>So the membership keeps working across your devices and renewals; so we can help with a refund or a billing question; and because tax and accounting rules require sellers to keep records of their sales</td>
+</tr>
+<tr>
+<td>Ordinary web-server logs, for the browser version only (section 4f)</td>
+<td>See the note in section 4f</td>
+<td>Delivering the page and keeping the server secure</td>
+</tr>
+<tr>
+<td>Everything else</td>
+<td>Not kept, because it is not collected</td>
+<td>—</td>
+</tr>
+</tbody></table>
+<p>Seven years is the period United States federal and state tax rules expect a business to be able to
+produce its records for, which is the only reason we keep a purchase record at all.</p>
+<p>We do not keep server logs of who read what, because the app never tells us.</p>
+<hr>
+<h2>10. Your rights, and how to use them</h2>
+<p>Depending on where you live, you have rights over personal data about you — to see it, correct it,
+delete it, restrict how it is used, or complain to a regulator. In the UK and EU these come from
+the GDPR; in California from the CCPA/CPRA; other places have similar rules.</p>
+<p>Because there are no accounts, here is honestly what we can and cannot do:</p>
+<p><strong>What we can do</strong></p>
+<ul>
+<li>Tell you everything a purchase record holds — section 4(d) is the complete list, and we can send
+you the actual record.</li>
+<li>Delete a purchase record, unless we still have to keep it for tax or accounting. If we delete
+it, the membership bought with it can no longer be restored on a new device.</li>
+<li>Answer any question about how the app works, and correct anything wrong in a record.</li>
+<li>Stop using a record for anything except the legal duty to keep it.</li>
+</ul>
+<p><strong>What we cannot do</strong></p>
+<ul>
+<li>We cannot look you up by name or email, because we have never held either. To find a record we
+need something from the purchase itself: the <strong>order or transaction id on the receipt Apple or
+Google emailed you</strong>, or the store you bought from and the approximate date.</li>
+<li>We cannot delete your reading progress or settings for you, because we do not have them.
+Deleting the app removes them, instantly and entirely.</li>
+<li>We cannot refund you — Apple and Google take the payment and issue refunds. See the
+<a href="refunds.html">Refund policy</a>.</li>
+</ul>
+<p><strong>How to ask.</strong> Email <strong><a href="mailto:admin@reallexi.io">admin@reallexi.io</a></strong> with what you would like. We aim to reply within a few
+days, and always within one month. We do not charge for this, and we will not ask you to create an
+account in order to exercise a right.</p>
+<p><strong>Complaining.</strong> If you are in the UK or EU and think we have handled data badly, you may complain
+to your national data protection authority (in the UK, the Information Commissioner&#39;s Office,
+ico.org.uk). We would rather you told us first so we can put it right.</p>
+<p><strong>Legal basis (UK/EU).</strong> For the purchase record we rely on <strong>performance of a contract</strong> — you
+bought a membership and we have to unlock it — and, for keeping it afterwards, our <strong>legal
+obligation</strong> to retain sales records. We do not rely on consent for anything, because we do not do
+anything that would need it.</p>
+<hr>
+<h2>11. How we keep it safe</h2>
+<ul>
+<li>The app talks to our server only over an encrypted connection (HTTPS).</li>
+<li>Every receipt is verified directly with Apple or Google before anything is unlocked. A made-up
+or replayed receipt is rejected.</li>
+<li>The membership pass is signed by our server with a private key that never leaves it. The app can
+only check passes, never create them.</li>
+<li>Each purchase produces exactly one record, tied to one store transaction — so a receipt cannot
+be reused to conjure extra memberships.</li>
+<li>Our server holds no names, emails or passwords, because it was never given any. There is no
+login to break into and no customer database to steal.</li>
+<li>Access to the server is limited to the people who run it, and it holds nothing about children.</li>
+</ul>
+<p>No system is perfect, and we will not pretend otherwise. But the strongest protection here is the
+design: information we never collect cannot leak.</p>
+<hr>
+<h2>12. Where the data is handled</h2>
+<p>Reallexi LLC is a United States company. Our purchase server is operated by us.</p>
+<p><strong>Our purchase server is located in the United States.</strong></p>
+<p>If you are outside that country, the purchase record described in section 4 is handled there. It
+contains no personal details, but we mention it because international transfer rules ask us to.
+Where the UK/EU GDPR applies, transfers are covered by the UK/EU Standard Contractual Clauses or
+another approved safeguard.</p>
+<hr>
+<h2>13. Changes to this policy</h2>
+<p>If we change how the app handles data, we will update this page and change the effective date at
+the top. If a change is significant — for instance if the app ever started collecting something —
+we would say so clearly in the app itself, and not bury it here.</p>
+<p>Older versions of this page are kept in the app&#39;s public repository, so you can see exactly what
+changed and when.</p>
+<hr>
+<h2>14. Contact</h2>
+<p><strong>Reallexi LLC</strong> — <strong><a href="mailto:admin@reallexi.io">admin@reallexi.io</a></strong></p>
+<p>Write to us about anything on this page. A person reads that mailbox.</p>
+<hr>
+<p><em>See also: <a href="terms.html">Terms of use</a> · <a href="refunds.html">Refund policy</a> ·
+<a href="childrens-privacy.html">Kids & Families summary</a></em></p>
+</main>
+<script type="module">
+const m = document.querySelectorAll('pre code.language-mermaid');
+if (m.length) { const { default: mermaid } = await import('https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs');
+  for (const c of m) { const d = document.createElement('pre'); d.className = 'mermaid'; d.textContent = c.textContent; c.parentElement.replaceWith(d); }
+  mermaid.initialize({ startOnLoad: false, theme: matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'default' }); await mermaid.run(); }
+</script></body></html>
