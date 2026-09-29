@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cancellation and Refunds — Kids Story Time · Kids Story Time — Docs</title><style>
+:root{--bg:#ffffff;--fg:#1d2430;--muted:#5c6675;--link:#0b63b8;--code:#f3f5f8;--border:#e3e7ee;--accent:#d9942a}
+@media(prefers-color-scheme:dark){:root{--bg:#0b1220;--fg:#e6ebf2;--muted:#9aa6b5;--link:#7cc0ff;--code:#131c2c;--border:#25304a;--accent:#f5b83d}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+a{color:var(--link)}header{border-bottom:1px solid var(--border);padding:.8rem 1.2rem;display:flex;gap:1rem;align-items:baseline;flex-wrap:wrap}
+header b{color:var(--accent)}header a{text-decoration:none;color:var(--muted)}
+main{max-width:62rem;margin:0 auto;padding:1.5rem 1.2rem 4rem}
+pre{background:var(--code);border:1px solid var(--border);border-radius:6px;padding:.8rem 1rem;overflow-x:auto}
+code{background:var(--code);padding:.1em .3em;border-radius:4px;font-size:.92em}pre code{background:none;padding:0}
+table{border-collapse:collapse;display:block;overflow-x:auto;max-width:100%}th,td{border:1px solid var(--border);padding:.35rem .6rem;vertical-align:top}th{background:var(--code)}
+blockquote{border-left:3px solid var(--accent);margin:0;padding:.2rem 1rem;color:var(--muted)}
+h1,h2,h3{line-height:1.25}h1{margin-top:0}hr{border:0;border-top:1px solid var(--border)}
+.toc ul{list-style:none;padding-left:0}.toc li{margin:.15rem 0}.toc h2{margin-bottom:.3rem;font-size:1.05rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.mermaid{background:transparent}img{max-width:100%}
+</style></head>
+<body><header><b>Kids Story Time</b><a href="../index.html">Docs index</a><a href="../00-ARCHITECTURE-DECISIONS.html">Architecture decisions</a></header>
+<main><h1>Cancellation and Refunds — Kids Story Time</h1>
+<p><strong>Effective date: 1 September 2026</strong>
+<strong>Last updated: 1 September 2026</strong></p>
+<p>This page explains how to cancel a <strong>Story Time Membership</strong> in <strong>Kids Story Time</strong>, made by
+<strong>Reallexi LLC</strong>, and what happens to money already charged. It is the policy linked from our App
+Store and Google Play listings, and it lives at a fixed address so those links keep working.</p>
+<hr>
+<h2>The short version</h2>
+<p><strong>You can cancel any time, and cancelling stops the next payment. We do not issue refunds.</strong></p>
+<p>We are not the shop. Apple and Google take the payment, hold the money, and are the only ones who
+can give any of it back. We never see your card and cannot put anything on it. If you want a charge
+that has already been taken returned to you, that is Apple&#39;s or Google&#39;s decision, made under their
+own rules — not ours.</p>
+<hr>
+<h2>Cancelling is the thing you probably want</h2>
+<p>Two different things, often confused:</p>
+<ul>
+<li><strong>Cancelling</strong> stops the <em>next</em> charge. <strong>Nothing is refunded</strong>, and nothing is cut off early:
+your membership carries on until the end of the period you have already paid for, and then it
+simply does not renew.</li>
+<li><strong>A refund</strong> is money already charged being given back. We do not do that. See below.</li>
+</ul>
+<p>So if what you want is &quot;stop taking my money&quot;, cancel — that is the whole answer, it takes under a
+minute, and you keep every story until the period you paid for runs out.</p>
+<h3>On iPhone or iPad</h3>
+<p><strong>Settings → your name → Subscriptions → Kids Story Time → Cancel Subscription.</strong></p>
+<h3>On Android</h3>
+<p>Open the <strong>Google Play Store</strong> app → tap your <strong>profile icon</strong> → <strong>Payments &amp; subscriptions</strong> →
+<strong>Subscriptions</strong> → <strong>Kids Story Time</strong> → <strong>Cancel subscription</strong>.</p>
+<p>Cancel at least 24 hours before the period ends: both stores charge the renewal a day ahead, and a
+cancellation made after that charge applies to the following period.</p>
+<hr>
+<h2>Refunds</h2>
+<p><strong>We do not give refunds for a payment that has already been taken.</strong> A membership that has been
+charged for a month or a year is charged for that month or year; what cancelling changes is whether
+it renews again.</p>
+<p>You may still ask <strong>Apple</strong> or <strong>Google</strong> directly. They are the merchant, they set the rules, and
+the decision is entirely theirs — we are not asked and we have no vote:</p>
+<ul>
+<li><strong>App Store:</strong> <a href="https://reportaproblem.apple.com">https://reportaproblem.apple.com</a>, signed in with the Apple ID that bought it.
+Governed by the <em>Apple Media Services Terms and Conditions</em>.</li>
+<li><strong>Google Play:</strong> <a href="https://play.google.com/store/account/orderhistory">https://play.google.com/store/account/orderhistory</a> → <strong>Report a problem</strong>.
+Governed by the <em>Google Play Terms of Service</em> and the Google Play refund policy.</li>
+</ul>
+<p>If either of them does issue a refund, the membership it paid for ends. The other eighteen stories
+close the next time the app can reach the store — because the app is built to work offline, that is
+the next time it has a connection, not the instant the refund is made.</p>
+<hr>
+<h2>What we will always do</h2>
+<ul>
+<li><strong>Never penalise a cancellation.</strong> No block, no restriction, no &quot;you cannot subscribe again&quot;.
+You are welcome back whenever you like.</li>
+<li><strong>Never touch reading progress.</strong> Progress and settings live on your own device. Cancelling does
+not delete them, and neither do we.</li>
+<li><strong>Keep the free stories free.</strong> <em>The Sleepy Little Star</em> and <em>The Tortoise and the Hare</em> stay
+open for good, membership or no membership.</li>
+<li><strong>Fix it if you paid and got nothing.</strong> If a charge went through and the stories did not unlock,
+that is a fault, not a refund question. Try <strong>Restore purchases</strong> on the membership screen first —
+it fixes it in seconds. If it does not, write to us and we will sort it out.</li>
+</ul>
+<hr>
+<h2>Your legal rights</h2>
+<p>Nothing here removes rights you have under the consumer law where you live. Some countries give a
+statutory right to cancel or be refunded that goes beyond what a shop chooses to offer; where that
+applies to you, it still applies, and Apple and Google administer it as the sellers of record.</p>
+<hr>
+<h2>Writing to us</h2>
+<p>Email <strong><a href="mailto:admin@reallexi.io">admin@reallexi.io</a></strong> if a charge went through and the app did not unlock, if you are not
+sure which store took the payment, or if something about a charge does not make sense.</p>
+<p>Please do not write to ask us for a refund — we cannot give one, and we would only be pointing you
+at Apple or Google, which you can do faster yourself with the links above.</p>
+<p><strong>What to include.</strong> Kids Story Time has <strong>no accounts</strong> — we have never held your name or email,
+so we cannot look you up. To find a purchase we need either the <strong>order id</strong> from the receipt Apple
+or Google emailed you (Google Play&#39;s look like <code>GPA.####-####-####-#####</code>; Apple prints &quot;Order ID&quot;
+on the receipt), or which store you bought from, which plan, and roughly when.</p>
+<p>We reply within a few days.</p>
+<hr>
+<h2>Contact</h2>
+<p><strong>Reallexi LLC</strong> — <strong><a href="mailto:admin@reallexi.io">admin@reallexi.io</a></strong></p>
+<hr>
+<p><em>See also: <a href="terms.html">Terms of use</a> · <a href="privacy-policy.html">Privacy policy</a> ·
+<a href="childrens-privacy.html">Kids & Families summary</a></em></p>
+</main>
+<script type="module">
+const m = document.querySelectorAll('pre code.language-mermaid');
+if (m.length) { const { default: mermaid } = await import('https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs');
+  for (const c of m) { const d = document.createElement('pre'); d.className = 'mermaid'; d.textContent = c.textContent; c.parentElement.replaceWith(d); }
+  mermaid.initialize({ startOnLoad: false, theme: matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'default' }); await mermaid.run(); }
+</script></body></html>

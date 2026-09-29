@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kids &amp; Families — Kids Story Time · Kids Story Time — Docs</title><style>
+:root{--bg:#ffffff;--fg:#1d2430;--muted:#5c6675;--link:#0b63b8;--code:#f3f5f8;--border:#e3e7ee;--accent:#d9942a}
+@media(prefers-color-scheme:dark){:root{--bg:#0b1220;--fg:#e6ebf2;--muted:#9aa6b5;--link:#7cc0ff;--code:#131c2c;--border:#25304a;--accent:#f5b83d}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+a{color:var(--link)}header{border-bottom:1px solid var(--border);padding:.8rem 1.2rem;display:flex;gap:1rem;align-items:baseline;flex-wrap:wrap}
+header b{color:var(--accent)}header a{text-decoration:none;color:var(--muted)}
+main{max-width:62rem;margin:0 auto;padding:1.5rem 1.2rem 4rem}
+pre{background:var(--code);border:1px solid var(--border);border-radius:6px;padding:.8rem 1rem;overflow-x:auto}
+code{background:var(--code);padding:.1em .3em;border-radius:4px;font-size:.92em}pre code{background:none;padding:0}
+table{border-collapse:collapse;display:block;overflow-x:auto;max-width:100%}th,td{border:1px solid var(--border);padding:.35rem .6rem;vertical-align:top}th{background:var(--code)}
+blockquote{border-left:3px solid var(--accent);margin:0;padding:.2rem 1rem;color:var(--muted)}
+h1,h2,h3{line-height:1.25}h1{margin-top:0}hr{border:0;border-top:1px solid var(--border)}
+.toc ul{list-style:none;padding-left:0}.toc li{margin:.15rem 0}.toc h2{margin-bottom:.3rem;font-size:1.05rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.mermaid{background:transparent}img{max-width:100%}
+</style></head>
+<body><header><b>Kids Story Time</b><a href="../index.html">Docs index</a><a href="../00-ARCHITECTURE-DECISIONS.html">Architecture decisions</a></header>
+<main><h1>Kids &amp; Families — Kids Story Time</h1>
+<p><strong>Effective date: 29 August 2026</strong>
+<strong>Last updated: 29 August 2026</strong></p>
+<p>A one-page summary for parents, guardians and teachers. Everything here is a description of how the
+app actually works. The full details are in our <a href="privacy-policy.html">Privacy policy</a>.</p>
+<p><strong>Kids Story Time</strong> is a 3D storybook app for children aged 3 and up, made by <strong>Reallexi LLC</strong>.
+Twenty stories — ten for bedtime, ten for the daytime — read aloud in a warm voice, with a living
+3D scene or a plain paper-book page, whichever your child prefers.</p>
+<hr>
+<h2>What a parent needs to know</h2>
+<p><strong>No ads.</strong> None. Not banners, not videos, not &quot;offers&quot;, not cross-promotion for other apps. There
+is no advertising software inside the app at all.</p>
+<p><strong>No tracking.</strong> We do not measure what your child reads, how long they read, or what they tap. No
+analytics tool is installed. The app never touches your device&#39;s advertising identifier (IDFA on
+iPhone and iPad, Advertising ID on Android), and nothing follows your child to another app or
+website.</p>
+<p><strong>No accounts, no sign-in.</strong> The app never asks for a name, an email address, a birthday, a photo
+or a password. There is nothing to create and nothing to remember.</p>
+<p><strong>No data collection.</strong> We collect no personal information from your child, and none from you
+either. The single exception is a membership purchase: the store&#39;s receipt and a random install
+number go to our server so the stories unlock — no name, no email, nothing that identifies anyone.
+That is the only data the app ever sends anywhere.</p>
+<p><strong>Everything stays on the device.</strong> Reading progress, the chosen reading mode, the narration and
+sound switches and all accessibility settings are saved on the device only. They never reach us.
+Deleting the app deletes all of it.</p>
+<p><strong>It works completely offline.</strong> All twenty stories are inside the app when it is downloaded.
+Aeroplane, car, cabin, a house with no Wi-Fi — the stories all work, including read-aloud.</p>
+<p><strong>No microphone, no camera, no location.</strong> The app never asks for them and never uses them. The
+read-aloud voice is the one already built into your device; nothing is recorded and nothing is sent
+to a voice service.</p>
+<p><strong>No chat, no links out, no strangers.</strong> There is no messaging, no comments, no social features and
+no way for anyone to contact your child through this app. There are no links to outside websites
+inside the reading experience.</p>
+<p><strong>Purchases are behind a parental gate.</strong> Two stories are free forever. The rest are opened by the
+Story Time Membership ($3.99 per month or $42.99 per year). Before any purchase button appears, the
+app asks a multiplication question a young child cannot answer — and Apple or Google then asks for
+your password, Face ID or fingerprint. A child cannot buy anything on their own, and the app never
+pressures a child to ask you to.</p>
+<p><strong>Made to the children&#39;s rules.</strong> We follow COPPA in the United States and the GDPR (including
+children&#39;s data rules and the UK Age Appropriate Design Code) in the UK and EU — by the simplest
+route available: collecting nothing, profiling nobody, and showing no advertising.</p>
+<hr>
+<h2>Built for every child — all nine accessibility features</h2>
+<p>Kids Story Time ships every one of the nine accessibility features Apple asks apps to declare, and
+they are all on the Settings screen:</p>
+<ol>
+<li><strong>VoiceOver and TalkBack</strong> — every control is properly labelled and announced, so a child or
+parent using a screen reader can navigate the whole app.</li>
+<li><strong>Voice Control</strong> — every button can be spoken by the name it shows, so &quot;Tap Settings&quot; works.</li>
+<li><strong>Larger Text</strong> — text scales from 100% up to 240%, and the app follows your device&#39;s text-size
+setting to start with. Pinch to zoom is never disabled.</li>
+<li><strong>Dark Interface</strong> — a full dark theme (the default) and a light one, following your device
+setting until you choose.</li>
+<li><strong>Differentiate Without Colour Alone</strong> — every state is shown with a word or a shape as well as a
+colour, for colour-blind readers.</li>
+<li><strong>Sufficient Contrast</strong> — colours are checked against the WCAG contrast standard, with an extra
+high-contrast palette that follows your device&#39;s &quot;Increase Contrast&quot; setting.</li>
+<li><strong>Reduced Motion</strong> — turns off the scene&#39;s gentle movement, camera drift and interface
+animations. It follows your device setting automatically.</li>
+<li><strong>Captions</strong> — on-screen caption lines for the app&#39;s sounds.</li>
+<li><strong>Audio Descriptions</strong> — spoken descriptions of what is happening in the picture, for children
+who cannot see the scene.</li>
+</ol>
+<p>Narration, music and ambient sound each have their own switch, so a child who finds sound
+overwhelming can read in silence.</p>
+<hr>
+<h2>Ratings</h2>
+<p>Rated for everyone: <strong>3+</strong> (ESRB <strong>E</strong>, PEGI <strong>3</strong>, App Store <strong>4+</strong>, Google Play <strong>Everyone</strong>).</p>
+<hr>
+<h2>Questions</h2>
+<p>Email <strong><a href="mailto:admin@reallexi.io">admin@reallexi.io</a></strong> — a person reads it and will answer.</p>
+<p><strong>Reallexi LLC</strong></p>
+<p><em>Full details: <a href="privacy-policy.html">Privacy policy</a> · <a href="terms.html">Terms of use</a> ·
+<a href="refunds.html">Refund policy</a></em></p>
+</main>
+<script type="module">
+const m = document.querySelectorAll('pre code.language-mermaid');
+if (m.length) { const { default: mermaid } = await import('https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs');
+  for (const c of m) { const d = document.createElement('pre'); d.className = 'mermaid'; d.textContent = c.textContent; c.parentElement.replaceWith(d); }
+  mermaid.initialize({ startOnLoad: false, theme: matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'default' }); await mermaid.run(); }
+</script></body></html>
